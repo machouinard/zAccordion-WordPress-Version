@@ -34,4 +34,3 @@ wp_enqueue_script(
 add_action('wp_head','jQueryFun',6);
 
 
-?>
