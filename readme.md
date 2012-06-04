@@ -2,6 +2,8 @@ zAccordion was originally made by Nate Armagost, and can be found at : http://ww
 
 Your HTML markup should look like this:
 
+
+'''
 <ul id="featured">
 	<li>
 		<image src="/images/1.jpg" width="600" height="310" alt="" />
@@ -16,3 +18,4 @@ Your HTML markup should look like this:
 		<image src="/images/4.jpg" width="600" height="310" alt="" />
 	</li>
 </ul>
+'''
