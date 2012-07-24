@@ -3,8 +3,8 @@
 Plugin Name: zAccordion WordPress-ed
 Description: Implementation of zAccordion
 Version: 1.0
-Author: Brad Parbs; OnYourMark, LLC
-Author URI: http://onyourmark.com
+Author: Brad Parbs
+Author URI: http://bradparbs.com
 License: GPL2
 */
 
