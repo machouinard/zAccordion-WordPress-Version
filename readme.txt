@@ -1,9 +1,9 @@
 === zAccordion ===
-Contributors: bradparbs
+Contributors: bradparbs, machouinard
 Donate link: http://bradparbs.com/
 Tags: image slider, accordion, slider
 Requires at least: 3.2
-Tested up to: 3.3.2
+Tested up to: 4.4.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,23 +13,23 @@ zAccordion was originally made by Nate Armagost, and can be found at : http://ww
 
 zAccordion was originally made by Nate Armagost, and can be found at : http://www.armagost.com/zaccordion or https://github.com/natearmagost/zAccordion
 
-Your HTML markup should look like this:
+Your HTML markup should look like this (assuming /images exists at site root):
 
 ```
-<ul id="featured">
-	<li>
-		<image src="/images/1.jpg" width="600" height="310" alt="" />
-	</li>
-	<li>
-		<image src="/images/2.jpg" width="600" height="310" alt="" />
-	</li>
-	<li>
-		<image src="/images/3.jpg" width="600" height="310" alt="" />
-	</li>
-	<li>
-		<image src="/images/4.jpg" width="600" height="310" alt="" />
-	</li>
-</ul>
+<div id="slider">
+    <p>
+        <image src="/images/car.jpg" width="600" height="310" alt="" />
+    </p>
+    <p>
+        <image src="/images/diner.jpg" width="600" height="310" alt="" />
+    </p>
+    <p>
+        <image src="/images/gas.jpg" width="600" height="310" alt="" />
+    </p>
+    <p>
+        <image src="/images/pool.jpg" width="600" height="310" alt="" />
+    </p>
+</div>
 ```
 
 == Installation ==
